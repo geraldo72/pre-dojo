@@ -1,2 +1,10 @@
-Coloque aqui suas instruções ou comentários que ache útil/relevantes para possamos ler 
-quando estivermos avaliando a sua solução
+Para esse projeto utilizei os frameworks:
+ - JUnit 4.12
+ - Mockito (com PowerMock)
+
+Para os testes, existem duas classes localizadas em src/test/java:
+ - core.AnaliseTeste         - Realiza testes na classe responsável por analisar os logs e extrair as informações necessarias
+ - core.motor.LeitorLogTeste - Realiza testes na classe responsável por ler os logs 
+Os arquivos de log utilizados nos testes estão em src/test/resources
+
+Para execução, a classe main.Main (Localizada em src/main/java) espera o caminho absoluto de um txt, se não for informado ele utiliza o logPadrao.txt.
