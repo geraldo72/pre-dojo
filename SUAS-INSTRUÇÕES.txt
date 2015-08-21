@@ -8,3 +8,5 @@ Para os testes, existem duas classes localizadas em src/test/java:
 Os arquivos de log utilizados nos testes estão em src/test/resources
 
 Para execução, a classe main.Main (Localizada em src/main/java) espera o caminho absoluto de um txt, se não for informado ele utiliza o logPadrao.txt.
+
+Sobre o bônus, faltou apenas implementar o award quando o jogador mata 5 vezes em 1 minuto.
